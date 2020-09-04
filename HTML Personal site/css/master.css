@@ -1,0 +1,48 @@
+body {
+  background-image: url("C:/Users/jorti/OneDrive/Desktop/WebDev/HTML Personal site/images/blackgold.jfif");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-color: #62d2a2;
+  background-size: cover;
+}
+
+.top{
+
+  height: 500px;
+
+}
+
+.navbar-brand{
+  color: #ffd700;
+}
+
+.jumbotron{
+  color: #ffd700;
+  margin: 30px;
+  opacity: 0.9;
+
+}
+
+.jumbotron-fluid-1{
+  width: 30%;
+}
+
+.display-4{
+}
+
+.top-bottom{
+  text-align: center;
+}
+
+.profilepic{
+  width: 10%;
+  height: 10%;
+  border-radius: 80%;
+}
+
+.lead {
+}
+
+.btn{
+  opacity: 1;
+}
