@@ -1,15 +1,30 @@
 body {
   background-image: url("C:/Users/jorti/OneDrive/Desktop/WebDev/HTML Personal site/images/blackgold.jfif");
-  background-repeat: no-repeat;
   background-attachment: scroll;
+  background-repeat: repeat-y;
   background-color: #62d2a2;
   background-size: cover;
 }
 
 .top{
-
   height: 500px;
-
+  margin-bottom: 0px;
+}
+a{
+  color:#ffd700;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  background: linear-gradient(to right, #b19500, #b19500 50%, #ffd700 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 275ms ease;
+}
+a:hover{
+  background-position: 0 100%;
 }
 
 .navbar-brand{
@@ -19,30 +34,31 @@ body {
 .jumbotron{
   color: #ffd700;
   margin: 30px;
-  opacity: 0.9;
+  opacity: 1;
 
 }
 
 .jumbotron-fluid-1{
-  width: 30%;
+  padding-top: 5px;
 }
 
 .display-4{
 }
 
 .top-bottom{
+  margin-top: 0px;
   text-align: center;
 }
 
-.profilepic{
-  width: 10%;
-  height: 10%;
-  border-radius: 80%;
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
 }
 
-.lead {
-}
-
-.btn{
-  opacity: 1;
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
